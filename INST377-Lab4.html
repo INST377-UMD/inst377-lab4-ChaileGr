@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body{background-color: grey;}
+
+ div{background-color: lightblue;
+  box-sizing: border-box;
+  width: 350px;
+  height: 60px;
+  padding: 10px;  
+  border: 2px solid white;
+  
+  }
+  
+ div2{background-color: lightblue;
+  box-sizing: border-box;
+  width: 350px;
+  height: 40px;
+  padding: 10px;  
+  border: 2px solid white;
+  float: right;
+  text-align: center;
+  
+  }
+
+div3{background-color: lightblue;
+  box-sizing: border-box;
+  width: 350px;
+  height: 60px;
+  padding: 10px;  
+  border: 2px solid white;
+  float: left;
+  }
+  
+ div4{background-color: lightblue;
+  box-sizing: border-box;
+  width: 350px;
+  height: 40px;
+  padding: 10px;  
+  border: 2px solid white;
+  float: right;
+  text-align: center;
+  }
+  
+  
+  
+</head>
+</style>
+
+<body>
+
+	<h1><center>INST377-Lab 4<h1></center>
+    
+    <h2><div
+    <label for="name">Name:</label>
+    <input type="text" id="name">
+	<button onclick="myFunction()">Alert Me!</button></form></div>
+    <script>function myFunction() {
+  confirm("Hi Chaile!");}
+</script>
+ 	
+    <h5><div2
+    onclick="myFunction()"><button>change color</button></div2>
+   <script>function myFunction() {
+  document.getElementById("div2").style.backgroundColor = "red";
+}
+</script>
+
+	<h5><div3
+    <label for="text tester"> Text Tester:</label>
+    <input type="text" id="text tester">
+    <button onclick="myFunction()">Validate Text</button></div3><br>
+  
+   <h5><div4
+	<center><button>Add Text</button></center>
+
+<script>
+function myFunction() {
+  const x = document.getElementById("h1");
+  <script>
+function myFunction() {
+  var x = document.createElement("H1");
+  var t = document.createTextNode("Add Text");
+  x.appendChild(t);
+  document.body.appendChild(x);
+}
+</script>
+   
+
+</body>
+</html>
+
+
